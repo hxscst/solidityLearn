@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/hxscst/solidityLearn/issues"
   },
-  "homepage": "https://github.com/hxscst/solidityLearn#readme"
+  "homepage": "https://github.com/hxscst/solidityLearn#readme",
+  "dependencies": {
+    "@truffle/hdwallet-provider": "^2.0.3",
+    "ethers": "^5.5.4"
+  }
 }

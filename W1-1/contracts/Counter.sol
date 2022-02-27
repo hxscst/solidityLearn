@@ -12,7 +12,7 @@ contract Counter {
         }
 
 
-    function set(uint x) public {
+    function set(uint8 x) public {
         counter = counter + x;
         }
 }

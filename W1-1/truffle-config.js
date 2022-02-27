@@ -22,6 +22,7 @@ const HDWalletProvider = require('@truffle/hdwallet-provider');
 
 const fs = require('fs');
 const mnemonic = fs.readFileSync(".secret").toString().trim();
+//const mnemonic = 'arctic corn galaxy hazard immense bread  unaware velvet document flip sight decorate segment stamp west silent recall army outer museum  museum option liberty dilemma';
 
 module.exports = {
   /**
@@ -66,7 +67,7 @@ module.exports = {
     // skipDryRun: true     // Skip dry run before migrations? (default: false for public nets )
     // },
     // Useful for private networks
-    ok: {
+    Ropsten : {
     provider: () => new HDWalletProvider(mnemonic, `https://exchaintestrpc.okex.org`),
     network_id: 65,   // This network is yours, in the cloud.
     // production: true    // Treats this network as if it was a public net. (default: false)
