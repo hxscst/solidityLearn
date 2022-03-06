@@ -18,7 +18,6 @@
   "homepage": "https://github.com/hxscst/solidityLearn#readme",
   "dependencies": {
     "@truffle/hdwallet-provider": "^2.0.3",
-    "ethers": "^5.5.4",
-    "hardhat": "^2.8.4"
+    "ethers": "^5.5.4"
   }
 }
